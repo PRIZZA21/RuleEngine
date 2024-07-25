@@ -24,3 +24,10 @@ This is a Rule Engine application that allows users to create, combine, and eval
    ```sh
    git clone https://github.com/your-username/rule-engine-app.git
    cd rule-engine-app
+2. **Install dependencies
+
+   ```sh
+   cd backend
+   npm install
+3. **
+
