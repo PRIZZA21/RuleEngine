@@ -5,7 +5,8 @@ const app = express();
 const Rule = require('./schema/rule');
 const CombinedRule = require('./schema/combinedRule');  // Import the Rule model
 app.use(bodyParser.json());
-const uri = 'mongodb+srv://priyanshu:jayant172@ruleengine.smoonvf.mongodb.net/?retryWrites=true&w=majority&appName=RuleEngine';
+require('dotenv').config();
+const uri = process.env.MONGO_URI;
 const PORT =  8080;
 
 
